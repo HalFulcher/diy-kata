@@ -1,7 +1,10 @@
 const { fizzBuzz } = require("../src");
 
 describe("fizzBuzz", () => {
-  test("returns Fizz when passed a multiple of 3", () => {});
+  test("returns Fizz when passed a multiple of 3", () => {
+
+    
+  });
 
   test("returns Buzz when passed a multiple of 5", () => {});
 
