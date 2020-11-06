@@ -1,8 +1,12 @@
 const getEmployerRole = (employeeName, employees) => {
 
-    let correctPerson = employees.find( (person) => person.name === employeeName);
-    return correctPerson.role; 
+
+let obj = employees.find(o => o.name === employeeName);
+
+return obj.role;
 
 };
+
+
 
 module.exports = getEmployerRole;
